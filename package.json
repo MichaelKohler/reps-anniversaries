@@ -1,0 +1,20 @@
+{
+  "name": "reps-anniversaries",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=* node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.0.0",
+    "dom-storage": "^2.0.2",
+    "express": "^4.15.4",
+    "jade": "~1.11.0",
+    "morgan": "^1.8.2",
+    "node-fetch": "^1.7.2",
+    "serve-favicon": "^2.4.3"
+  }
+}

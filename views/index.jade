@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .container
+    h1= title
+
+    table.month
+      theader
+        th Name
+        th Country
+        th Date joined
+      tbody
+        - each rep in reps
+          tr
+            td
+              a(href=rep.remo_url)
+                = rep.first_name + ' ' + rep.last_name
+            td= rep.country
+            td= rep.date_joined_program
